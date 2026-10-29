@@ -11,16 +11,20 @@ h1{
  font-family: 'Lato'
 }
 
-:root{
-  --white: #fff;
---dark1: #34344e;
---dark2: #3a415a;
---dark3: #566981;
---dark4: #89a7b1;
---dark5: #cbdad5;
---dark6: #2f2f46;
---cyan1: #70e3ea;
+
+
+:root {
+  --white: #F0F5F5;
+  --dark1: #30353A;
+  --dark2: #41494E;
+  --dark3: #607078;
+  --dark4: #92A5AA;
+  --dark5: #CCD7DA;
+  --dark6: #22282D;
+  --cyan1: #70E3EA;
 }
+
+
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -243,6 +247,7 @@ footer{
   flex-direction: column;
   gap:2rem;
   align-items: center;
+ 
 }
 
 footer > div{
@@ -278,4 +283,16 @@ footer > div{
   
 .img-profile, .img-about-me{
 box-shadow: 1px 1px 1px 1px var(--cyan1) ;
+}
+
+
+footer a {
+  display: inline-flex;
+  cursor: pointer;
+  background-color: var(--dark5);
+  padding: 10px;
+}
+
+footer a:hover {
+  background-color: black;
 }
