@@ -1,0 +1,6 @@
+{
+  "name": "Leandro Fonseca - Portfólio",
+  "description": "Portfólio pessoal e landing page de Leandro Fonseca, estudante de Engenharia de Software, educador físico e atleta.",
+  "permissions": [],
+  "capabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
